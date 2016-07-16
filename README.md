@@ -46,4 +46,4 @@ Once it's worked, great - but how do you save that into a file you can use?
 
 All we need to do is add `> whateveryouwanttocallit.csv` to the end of what we just wrote (and yes, you can call it anything). The full line looks like this:
 
-`reconcile company-numbers-to-company-officer-names testreconcile.csv`
+`reconcile company-numbers-to-company-officer-names testreconcile.csv > myresults.csv`
